@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="36.038075">
+<testcase classname="To Test Swiggy website" name="Search for an item, add to cart and checkout" time="36.038075">
+<system-out><![CDATA[Given user access swiggy site...............................................passed
+When user search the location...............................................passed
+And user search a dish......................................................passed
+When user access site for the first time then cart is empty.................passed
+Then user access an item and add to cart and checkout.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

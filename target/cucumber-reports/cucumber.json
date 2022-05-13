@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-13T07:28:14.890Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3867614400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeSteps()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Search for an item, add to cart and checkout",
+        "description": "",
+        "id": "to-test-swiggy-website;search-for-an-item--add-to-cart-and-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 724902600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2004754300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user access swiggy site",
+            "match": {
+              "location": "SwiggyTest.user_access_swiggy_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8216924200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user search the location",
+            "match": {
+              "location": "SwiggyTest.user_search_the_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16786596400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search a dish",
+            "match": {
+              "location": "SwiggyTest.user_search_a_dish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163875200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user access site for the first time then cart is empty",
+            "match": {
+              "location": "SwiggyTest.isCartEmpty()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4223222000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user access an item and add to cart and checkout",
+            "match": {
+              "location": "SwiggyTest.user_access_an_item_cart_checkout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test Swiggy website",
+    "description": "",
+    "id": "to-test-swiggy-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SwiggyFeatures.feature",
+    "tags": []
+  }
+]
